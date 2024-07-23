@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#wrap{
+    width: 1920px;
+    height: 4829px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* header s */
+#header{
+    width: 1920px;
+    height: 100px;
+}
+.head-wrap{
+    width: 1080px;
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+}
+.head-wrap h1 a{
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    width: 115px;
+    height: 32px;
+    position: absolute;
+    bottom: 30px;
+}
+.head-wrap h1 a{
+    display: block;
+}
+.top-link{
+    float: right;
+}
+.top-link li{
+    float: left;
+    color: #989898;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   
+}
+.top-link li a{
+    display: block;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+.top-link li:nth-child(1) a{
+    border-right: 1px solid #989898;
+}
+.top-link li:nth-child(2) a{
+    padding-right: 0;
+}
+.gnb{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: "Commissioner", sans-serif;
+}
+.gnb li{
+    float: left;
+}
+.gnb li:nth-child(6) a{
+    margin-right: 0;
+}
+.gnb li a{
+    display: block;
+    margin: 0 20PX;
+    font-weight: bold;
+}
+#banner{
+    width: 1920px;
+    height: 679px;
+    background-image: url(../images/main1.jpg);
+}
+/* header e */
+
+/* container s */
+#container{
+    width: 1080px;
+    height: 3850px;
+    margin: 0 auto;
+    position: relative;
+    font-family: "Commissioner", sans-serif;
+}
+
+.contents{
+    margin-top: 200px;
+    width: 100%;
+}
+
+#container h2{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.title{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 60px;
+    margin-bottom: 20%;
+}
+.lab{
+    width: 100%;
+}
+.best-item li{
+    float: left;
+    width: 260px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+}
+.best-item img{
+    width: 100%;
+}
+.best-item li a:hover{
+    opacity: 65%;
+}
+
+.sns li{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.sns li:nth-child(5), li:nth-child(10){
+    margin-right: 0;
+}
+.sns li img{
+    width: 100%;
+}
+.sns li a:hover{
+    opacity: 65%;
+}
+/* container e */
+
+/* footer s */
+#footer{
+    width: 1920px;
+    height: 150px;
+    border-top: 1px solid #ddd;
+    position: relative;
+}
+#footer p{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Commissioner", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+/* footer e */
